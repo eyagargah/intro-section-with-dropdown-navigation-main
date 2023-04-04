@@ -69,23 +69,29 @@ li:hover {
 .text-content {
     width: 50%;
     margin: 6rem 0 0 10rem;
+
 }
 h2 {
     font-size: 80px;
     font-weight:700;
-    margin: 0 1rem 3rem 0;
+    margin: 0 1rem 2rem 0;
 }
 p {
+    width:81%;
     color: hsl(0, 0%, 41%);
-    font-size: 1.2rem;
-    line-height: 1.8rem;
+    font-size: 17px;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin: 0 3rem 0 0;
 }
+ p #text {
+    margin: 0;
+ }
 
 .logos {
-    margin-top: 3rem;
     display: flex;
     gap: 2rem;
-    margin: 3rem 0 0 0 ;
+    margin: 5rem 0 0 0 ;
 }
 .logos img {
     margin-left: 0;
