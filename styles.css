@@ -22,7 +22,7 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
-    gap: 26rem;
+    gap: 15rem;
     width: 90%;
 }
 .services {
