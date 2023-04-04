@@ -55,6 +55,13 @@ li:hover {
     padding: 1rem;
 }
 
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: lightgray;
+    margin: 5px;
+  }
+
 /*content section*/
 .content {
     display: flex;
