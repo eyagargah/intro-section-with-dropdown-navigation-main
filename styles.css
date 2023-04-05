@@ -12,3 +12,27 @@ body {
   font-weight: 500;
 }
 /*header section*/
+
+
+header {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 700;
+  color: hsl(0, 0%, 41%);
+}
+
+picture img {
+  visibility: hidden;
+}
