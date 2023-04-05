@@ -17,8 +17,24 @@ body {
 header {
   display: flex;
   margin: 1rem;
+  gap: 60%;
   align-items: center;
 }
+.nav {
+  display: none;
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+}
+
 
 ul {
   display: flex;
