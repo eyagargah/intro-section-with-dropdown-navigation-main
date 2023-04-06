@@ -15,8 +15,8 @@ body {
 
 header {
   display: flex;
-  margin: 1rem;
-  gap: 60%;
+  margin: 1rem 0;
+  gap: 50%;
   align-items: center;
 }
 .nav {
@@ -33,6 +33,7 @@ header {
 ul {
   display: flex;
   flex-direction: row;
+  margin-left: 0;
   gap: 2rem;
 }
 
@@ -41,6 +42,11 @@ li {
   cursor: pointer;
   font-weight: 700;
   color: hsl(0, 0%, 41%);
+}
+
+
+li:hover {
+  color: black;
 }
 
 .content {
@@ -77,6 +83,13 @@ p {
   background-color: black;
   color: hsl(0, 0%, 98%);
 }
+
+.learnMore:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: black;
+  cursor: pointer;
+}
+
 .logos {
   display: flex;
   margin-top: 3rem;
@@ -88,4 +101,48 @@ p {
   .burger {
     display: none;
   }
+  header {
+    margin: 1rem;
+    gap: 5%;
+  }
+ .logo {
+  margin: 0;
+ }
+  .nav {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    gap: 55%;
+    margin-left: 0;
+  }
+  .services ul{
+    padding: 0;
+  }
+
+  .register {
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+  }
+
+  .content  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text-content {
+    width: 50%;
+    margin: 5rem 0 0 10rem;
+  }
+h2 {
+  font-size: 80px;
+  font-weight: 700;
+}
+p {
+  color: hsl(0, 0%, 41%);
+  font-size: 18px;
+  line-height: 1.5rem;
+  font-weight: 500;
+  margin: 0 3rem 0 0;
+}
 }
