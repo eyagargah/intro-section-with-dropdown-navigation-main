@@ -1,12 +1,13 @@
-openMenu()
+let burger = document.querySelector('.burger')
+let links = document.querySelector('.links')
+
+let arrow = document.querySelector('.arrow')
+let featuresMenu = document.querySelector(".features")
+
+
+featuresMenu.addEventListener("click", openMenu)
+
+function openMenu()
 {
-    let burger = document.querySelector('.burger')
-    let links = document.querySelector('.links')
-    if(links?.classList.contains("open")){
-      links.classList.remove('open')
-      links.classList.add('close')
-    }else {
-      links?.classList.add('open')
-      links?.classList.remove('close')
-    }
-  } 
+  
+}
