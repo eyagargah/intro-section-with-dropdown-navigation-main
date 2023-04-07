@@ -1,7 +1,10 @@
 let dropBtn = document.querySelectorAll('.dropBtn')
-let dropDownContent = document.querySelectorAll('.dropdown-content')
 
+let burger = document.querySelector('.burger')
 
+burger.addEventListener('click', function(){
+
+})
 dropBtn.forEach(function(item){
   item.addEventListener('click', function(){
     if ( item.parentElement.lastElementChild.classList.contains('hide')){
