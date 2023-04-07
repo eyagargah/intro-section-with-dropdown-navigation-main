@@ -193,9 +193,14 @@ p {
     margin-left: 5px;
     
   }
+
 .hide {
   display: none;
 }
+.show {
+  display: block;
+}
+
   .dropdown-content {
     display: none;
     border-radius: 5px;
