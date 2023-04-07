@@ -1,6 +1,11 @@
-let arrow = document.querySelector('.arrow')
-let dropBtn = document.querySelector('.dropBtn')
+let dropBtn = document.querySelectorAll('.dropBtn')
 let dropDownContent = document.querySelectorAll('.dropdown-content')
-function dropDownMenu(){
-  dropDownContent.forEach( d => d.classList.add)
-}
+
+
+dropBtn.forEach(function(item){
+  item.addEventListener('click', function(){
+    
+    console.log(item.childNodes[1])
+
+  })
+})
