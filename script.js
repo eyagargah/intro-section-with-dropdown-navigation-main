@@ -4,8 +4,6 @@ let dropDownContent = document.querySelectorAll('.dropdown-content')
 
 dropBtn.forEach(function(item){
   item.addEventListener('click', function(){
-    
-    console.log(item.childNodes[1])
-
+    item.parentElement.lastElementChild.style.display ="block"
   })
 })
