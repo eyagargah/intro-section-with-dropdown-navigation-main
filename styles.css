@@ -193,14 +193,9 @@ p {
     margin-left: 5px;
     
   }
-  .arrow {
-    margin-left: 5px;
-    content: url(assets/icon-arrow-down.svg);
-  }
-  .dropBtn:hover {
-    content: url(assets/icon-arrow-up.svg);
-    
-  }
+.hide {
+  display: none;
+}
   .dropdown-content {
     display: none;
     border-radius: 5px;
