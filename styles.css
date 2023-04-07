@@ -222,9 +222,6 @@ p {
     text-align: left;
   }
 
-  .dropDown:hover .dropdown-content {
-    display: block;
-  }
   .dropBtn:hover {
     color: black;
   }
