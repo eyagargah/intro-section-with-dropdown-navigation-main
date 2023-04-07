@@ -20,9 +20,7 @@ header {
   gap: 50%;
   align-items: center;
 }
-.nav {
-  display: none;
-}
+
 
 .burger div {
   width: 25px;
@@ -89,6 +87,16 @@ p {
   color: black;
   cursor: pointer;
 }
+.nav {
+  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  width: 35vw;
+  height: 630vh;
+  z-index: 1;
+}
 
 .logos {
   display: flex;
@@ -119,6 +127,7 @@ p {
   .nav {
     display: flex;
     width: 80%;
+    align-items: baseline;
     justify-content: space-between;
     gap: 50%;
     margin-left: 0;
@@ -178,11 +187,13 @@ p {
   .dropDown {
     position: relative;
     display: inline-block;
+    align-items: baseline;
   }
 
   .dropBtn {
-    display: flex;
     border: none;
+    align-items: baseline;
+    display: flex;
     background-color: transparent;
     font-weight: 700;
     font-size: 18px;
@@ -191,18 +202,17 @@ p {
   }
   .dropBtn {
     margin-left: 5px;
-    
   }
   .dropBtn img {
     margin-left: 5px;
   }
 
-.hide {
-  display: none;
-}
-.show {
-  display: block;
-}
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
 
   .dropdown-content {
     border-radius: 5px;
