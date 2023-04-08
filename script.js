@@ -1,6 +1,6 @@
 let dropBtn = document.querySelectorAll('.dropBtn')
 
-let burger = document.querySelector('.burger')
+let menuBtn = document.querySelector('.menu')
 
 burger.addEventListener('click', function(){
 
