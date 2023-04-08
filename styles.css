@@ -21,14 +21,6 @@ header {
   align-items: center;
 }
 
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  margin: 5px;
-}
-
 ul {
   display: flex;
   flex-direction: row;
@@ -87,16 +79,7 @@ p {
   color: black;
   cursor: pointer;
 }
-.nav {
-  border-radius: 5px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: white;
-  width: 35vw;
-  height: 630vh;
-  z-index: 1;
-}
+
 
 .logos {
   display: flex;
