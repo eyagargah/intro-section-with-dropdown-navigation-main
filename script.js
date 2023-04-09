@@ -1,8 +1,11 @@
 let dropBtn = document.querySelectorAll('.dropBtn')
 
-let menuBtn = document.querySelector('.menu')
+let openMenu = document.querySelector('.open-menu')
+let exitMenu = document.querySelector('.close-menu')
 
-
+openMenu.addEventListener('click', function(){
+  console.log('hello')
+})
 
 dropBtn.forEach(function(item){
   item.addEventListener('click', function(){
