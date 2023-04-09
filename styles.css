@@ -39,6 +39,12 @@ li:hover {
   color: black;
 }
 
+.nav {
+  display: none;
+}
+
+
+
 /*Main content*/
 .content {
   display: flex;
@@ -80,9 +86,7 @@ p {
   color: black;
   cursor: pointer;
 }
-.nav {
-  display: none;
-}
+
 
 .logos {
   display: flex;
