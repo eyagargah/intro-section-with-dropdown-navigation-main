@@ -198,6 +198,7 @@ p {
   }
 
   .dropdown-content {
+    margin: 0.5rem;
     border-radius: 5px;
     position: absolute;
     background-color: white;
@@ -211,11 +212,15 @@ p {
     margin: 1rem;
     font-weight: 500;
     display: flex;
-    text-align: left;
+    align-items: baseline;
   }
   .dropdown-content li img {
-    text-align: left;
+    align-items: baseline;
+    margin-right: 0.4rem;
+    margin-left: 0;
+    
   }
+
 
   .dropBtn:hover {
     color: black;
