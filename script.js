@@ -1,5 +1,7 @@
 let dropBtn = document.querySelectorAll('.dropBtn')
 let menu = document.querySelector('.menu');
+
+
 dropBtn.forEach(function(item){
   item.addEventListener('click', function(){
     if ( item.parentElement.lastElementChild.classList.contains('hide')){
@@ -24,6 +26,11 @@ dropBtn.forEach(function(item){
       item.childNodes[3].classList.add('show')
     }
   })
+})
+
+menu.addEventListener('click',function(){
+  menu.parentElement.classList.toggle('open');
+  document.body.classList.toggle('nav-open');
 })
 
 
