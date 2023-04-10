@@ -149,6 +149,9 @@ p {
 .open-menu {
   display: none;
 }
+.close-menu{
+  display: none;
+}
   .nav {
     display: flex;
     width: 80%;
