@@ -21,13 +21,6 @@ header {
   align-items: center;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  margin-left: 0;
-  gap: 2rem;
-}
-
 li {
   list-style: none;
   cursor: pointer;
@@ -39,25 +32,50 @@ li:hover {
   color: black;
 }
 
-.nav {
-  display: none;
-    border-radius: 5px;
-    background-color: white;
-    right: 0;
-    width: 65vw;
-    height: 100vh;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.dropDown {
-  display: flex;
-  flex-direction: row;
-}
 .account {
   display: none;
 }
+
+.nav {
+  display: none;
+  /* border-radius: 5px;
+  background-color: white;
+  right: 0;
+  width: 65vw;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column; */
+}
+
+.dropBtn {
+  border: none;
+  align-items: baseline;
+  display: flex;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+}
+.dropBtn {
+  margin-left: 5px;
+}
+.dropBtn img {
+  margin-left: 5px;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.dropBtn:hover {
+  color: black;
+}
+
 /*Main content*/
 .content {
   display: flex;
@@ -109,33 +127,7 @@ p {
   width: 22%;
 }
 
-.dropBtn {
-  border: none;
-  align-items: baseline;
-  display: flex;
-  background-color: transparent;
-  font-weight: 700;
-  font-size: 18px;
-  color: hsl(0, 0%, 41%);
-  cursor: pointer;
-}
-.dropBtn {
-  margin-left: 5px;
-}
-.dropBtn img {
-  margin-left: 5px;
-}
 
-.hide {
-  display: none;
-}
-.show {
-  display: block;
-}
-
-.dropBtn:hover {
-  color: black;
-}
 
 @media screen and (min-width: 1100px) {
   .menu {
@@ -145,9 +137,18 @@ p {
     margin: 1rem;
     gap: 5%;
   }
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    gap: 2rem;
+  }
   .logo {
     margin: 0;
   }
+.open-menu {
+  display: none;
+}
   .nav {
     display: flex;
     width: 80%;
@@ -159,7 +160,9 @@ p {
   .services ul {
     padding: 0;
   }
-
+.account {
+  display: inline;
+}
   .register {
     border: 3px solid black;
     border-radius: 15px;
@@ -229,13 +232,6 @@ p {
   }
   .dropBtn img {
     margin-left: 5px;
-  }
-
-  .hide {
-    display: none;
-  }
-  .show {
-    display: block;
   }
 
   .dropdown-content {
