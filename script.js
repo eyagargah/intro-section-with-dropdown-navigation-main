@@ -1,12 +1,5 @@
 let dropBtn = document.querySelectorAll('.dropBtn')
 
-let openMenu = document.querySelector('.open-menu')
-let exitMenu = document.querySelector('.close-menu')
-
-openMenu.addEventListener('click', function(){
-  console.log('hello')
-})
-
 dropBtn.forEach(function(item){
   item.addEventListener('click', function(){
     if ( item.parentElement.lastElementChild.classList.contains('hide')){
@@ -32,3 +25,7 @@ dropBtn.forEach(function(item){
     }
   })
 })
+
+
+let openMenu = document.querySelector('.open-menu')
+let closeMenu = document.querySelector('.close-menu')
