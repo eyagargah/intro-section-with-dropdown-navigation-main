@@ -47,6 +47,22 @@ li:hover {
   display: flex;
   flex-direction: column; */
 }
+.menu{
+  top: 1.3rem;
+  right: 1rem;
+  z-index: 2;
+  cursor: pointer;
+}
+.menu .close-menu{
+  display: none;
+}
+
+header.open .open-menu{
+  display: none;
+}
+header.open .close-menu{
+  display: initial;
+}
 
 .dropBtn {
   border: none;
