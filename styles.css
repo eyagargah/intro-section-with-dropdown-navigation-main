@@ -50,13 +50,14 @@ li:hover {
 }
 
 .nav {
-  background-color: white;
+  position: fixed;
+  top: 0;
   right: 0;
-  width: 65vw;
-  height: 100vh;
-  z-index: 1;
-  
- 
+  bottom: 0;
+  z-index: 99;
+  background: white;
+  list-style: none;
+  padding-top: 4rem;
 }
 .services ul li {
   margin: 1rem;
@@ -67,9 +68,11 @@ li:hover {
 
 
 .menu{
-  top: 1.3rem;
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
   right: 1rem;
-  z-index: 2;
+  padding: 4px;
   cursor: pointer;
 
 
