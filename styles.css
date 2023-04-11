@@ -34,6 +34,7 @@ header {
 }
 
 li {
+  margin-left: 0;
   list-style: none;
   cursor: pointer;
   font-weight: 700;
@@ -47,18 +48,21 @@ li:hover {
 .account {
   display: none;
 }
-.services ul li ul{
-  margin-left: 0;
-}
+
 .nav {
   background-color: white;
   right: 0;
   width: 65vw;
   height: 100vh;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
+ 
+}
+.services ul li {
+  margin: 1rem;
+}
+.services ul li ul {
+  padding: 0;
 }
 
 
@@ -68,19 +72,8 @@ li:hover {
   z-index: 2;
   cursor: pointer;
 
-}
 
-.menu .close-menu{
-  display: none;
 }
-
-header.open .open-menu{
-  display: none;
-}
-header.open .close-menu{
-  display: initial;
-}
-
 
 .dropBtn {
   border: none;
@@ -91,10 +84,11 @@ header.open .close-menu{
   font-size: 18px;
   color: hsl(0, 0%, 41%);
   cursor: pointer;
+  margin-left: 0;
+  padding: 0;
 }
-.dropBtn {
-  margin-left: 5px;
-}
+
+
 .dropBtn:hover {
   color: black;
 }
