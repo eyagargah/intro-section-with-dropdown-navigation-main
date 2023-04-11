@@ -29,8 +29,7 @@ dropBtn.forEach(function(item){
 })
 
 menu.addEventListener('click',function(){
-  menu.parentElement.classList.toggle('open');
-  document.body.classList.toggle('nav-open');
+  
 })
 
 
