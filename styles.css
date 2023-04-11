@@ -47,9 +47,10 @@ li:hover {
 .account {
   display: none;
 }
-
+.services ul li ul{
+  margin-left: 0;
+}
 .nav {
-   border-radius: 5px;
   background-color: white;
   right: 0;
   width: 65vw;
@@ -80,6 +81,7 @@ header.open .close-menu{
   display: initial;
 }
 
+
 .dropBtn {
   border: none;
   align-items: baseline;
@@ -93,6 +95,9 @@ header.open .close-menu{
 .dropBtn {
   margin-left: 5px;
 }
+.dropBtn:hover {
+  color: black;
+}
 .dropBtn img {
   margin-left: 5px;
 }
@@ -104,9 +109,7 @@ header.open .close-menu{
   display: block;
 }
 
-.dropBtn:hover {
-  color: black;
-}
+
 
 /*Main content*/
 .content {
