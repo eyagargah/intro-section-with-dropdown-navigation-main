@@ -32,6 +32,9 @@ header {
   gap: 50%;
   align-items: center;
 }
+.logo {
+  margin-left: 1rem;
+}
 
 li {
   margin-left: 0;
@@ -50,6 +53,7 @@ li:hover {
 }
 
 .nav {
+  display: none;
   position: fixed;
   top: 0;
   right: 0;
