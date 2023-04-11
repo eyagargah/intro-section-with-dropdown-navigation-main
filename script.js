@@ -29,7 +29,15 @@ dropBtn.forEach(function(item){
 })
 
 menu.addEventListener('click',function(){
-  nav.classList.toggle('hide')
+  if(menu[0].classList.contains('show')){
+    menu[0].classList.remove('show')
+    menu[0].classList.add('hide')
+    nav.classList.remove('hide')
+    nav.classList.add('show')
+  }
+  else {
+    
+  }
  
 })
 
