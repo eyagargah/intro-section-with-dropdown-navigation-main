@@ -30,7 +30,7 @@ dropBtn.forEach(function(item){
 
 menu.addEventListener('click',function(){
   nav.classList.toggle('hide')
-  menu.classList.toggle('hide')
+ 
 })
 
 
