@@ -3,7 +3,7 @@ let menu = document.querySelector('.menu');
 
 let openMenu = document.querySelector('.open-menu')
 let closeMenu = document.querySelector('.close-menu')
-
+let overlay = document.querySelector('.overlay')
 
 let nav = document.querySelector('.nav')
 dropBtn.forEach(function(item){
@@ -33,7 +33,16 @@ dropBtn.forEach(function(item){
 })
 
 menu.addEventListener('click', function(){
-  
+  if(nav.classList.contains('hide')){
+    nav.classList.remove('hide')
+    closeMenu.classList.remove('hide')
+    openMenu.classList.add('hide')
+    overlay.classList.remove('hide')
+  }else {
+    nav.classList.add('hide')
+    closeMenu.classList.add('hide')
+    openMenu.classList.remove('hide')
+  }
 })
 
 
