@@ -1,6 +1,10 @@
 let dropBtn = document.querySelectorAll('.dropBtn')
 let menu = document.querySelector('.menu');
 
+let openMenu = document.querySelector('.open-menu')
+let closeMenu = document.querySelector('.close-menu')
+
+
 let nav = document.querySelector('.nav')
 dropBtn.forEach(function(item){
   item.addEventListener('click', function(){
@@ -28,18 +32,8 @@ dropBtn.forEach(function(item){
   })
 })
 
-menu.addEventListener('click',function(){
-  if(menu[0].classList.contains('show')){
-    menu[0].classList.remove('show')
-    menu[0].classList.add('hide')
-    nav.classList.remove('hide')
-    nav.classList.add('show')
-  }
-  else {
-    
-  }
- 
+menu.addEventListener('click', function(){
+  
 })
-
 
 
