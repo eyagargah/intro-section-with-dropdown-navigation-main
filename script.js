@@ -42,6 +42,7 @@ menu.addEventListener('click', function(){
     nav.classList.add('hide')
     closeMenu.classList.add('hide')
     openMenu.classList.remove('hide')
+    overlay.classList.add('hide')
   }
 })
 
